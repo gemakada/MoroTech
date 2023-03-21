@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: edi-masterdata-retrieve-service
+  datasource:
+    url : jdbc:sqlite:mem:testdb;
+    username : sa
+    password :
+    driverClassName : org.sqlite.JDBC
+  sql:
+    init:
+      schema-locations: classpath:database/schema/books.sql
+      mode: always

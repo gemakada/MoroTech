@@ -1,0 +1,11 @@
+server:
+  port: 8060
+  shutdown: GRACEFUL
+spring:
+  profiles:
+    active: dev
+  application:
+    name: edi-masterdata-retrieve-service
+  datasource:
+    url: jdbc:sqlite:/Users/georgemakantasis/Moro/Persistence/db/Books.db
+    driver-class-name: org.sqlite.JDBC
