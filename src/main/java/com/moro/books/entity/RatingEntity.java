@@ -4,6 +4,7 @@
 package com.moro.books.entity;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
@@ -14,7 +15,8 @@ import org.springframework.data.relational.core.mapping.Table;
 @Table(name = "rating")
 @AllArgsConstructor
 @NoArgsConstructor
-public class Rating {
+@Builder
+public class RatingEntity {
 
     @Id
     @Column(value = "ID")

@@ -3,13 +3,19 @@
  */
 package com.moro.books.controller;
 
+import com.moro.books.dto.Book;
+import com.moro.books.dto.BookSearchResult;
+import com.moro.books.dto.Rating;
+import com.moro.books.service.BooksRatingService;
+import com.moro.books.service.BooksService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import javax.validation.Valid;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotEmpty;
 
@@ -17,12 +23,31 @@ import javax.validation.constraints.NotEmpty;
 @Validated
 public class BooksController {
 
+    @Autowired
+    BooksService booksService;
+
+    @Autowired
+    BooksRatingService booksRatingService;
     @GetMapping(value = "/v1/books/search/", produces = MediaType.APPLICATION_JSON_VALUE)
 
-    public ResponseEntity<String> searchBooks(
+    public ResponseEntity<BookSearchResult> searchBooks(
             @RequestParam(value = "author", required = false) @NotEmpty(message = "Author name should not be empty")  String author,
             @RequestParam(value = "page", required = false) @Min(value = 1, message = "Page number should be greater than 1")  String page) {
-            return new ResponseEntity<>("OK",HttpStatus.OK);
+        return new ResponseEntity<>(booksService.searchForBooks(author, page),HttpStatus.OK);
+    }
+
+    @GetMapping(value = "/v1/books/{bookId}", produces = MediaType.APPLICATION_JSON_VALUE)
+
+    public ResponseEntity<Book> getBookById(
+            @PathVariable(value = "bookId", required = false) @NotEmpty(message = "Book id must not be null") @Min(value = 1, message = "Book id should be greater than 1")  String bookId) {
+        return new ResponseEntity<>(booksService.getBookWithRatings(bookId),HttpStatus.OK);
+    }
+
+    @PostMapping(value = "/v1/books/rating", consumes = MediaType.APPLICATION_JSON_VALUE,produces = MediaType.APPLICATION_JSON_VALUE)
+
+    public ResponseEntity<Rating> postBookRating(
+            @RequestBody @Valid Rating rating) {
+        return new ResponseEntity<>(booksRatingService.postBookRating(rating),HttpStatus.OK);
     }
 
 }

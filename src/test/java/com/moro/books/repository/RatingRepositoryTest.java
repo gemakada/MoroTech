@@ -6,7 +6,7 @@ package com.moro.books.repository;/*
  *
  */
 
-import com.moro.books.entity.Rating;
+import com.moro.books.entity.RatingEntity;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -27,7 +27,7 @@ public class RatingRepositoryTest {
     @BeforeEach
     public void initDataBase() {
         ratingRepository.deleteAll();
-        Rating rating = new Rating();
+        RatingEntity rating = new RatingEntity();
         rating.setRating(5);
         rating.setBookId(4);
         rating.setComment("Comment");
@@ -36,7 +36,7 @@ public class RatingRepositoryTest {
 
     @Test
     public void TestShouldRetrieveAllDataAirline() {
-        List<Rating> retrievedEntities = Streamable
+        List<RatingEntity> retrievedEntities = Streamable
                 .of(ratingRepository.findAll())
                 .toList();
         Assertions.assertEquals(retrievedEntities.size(), 1);
