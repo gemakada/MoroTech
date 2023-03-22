@@ -12,6 +12,9 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+import java.util.stream.Collectors;
+
 @Service
 @Slf4j
 public class BooksService {
@@ -52,5 +55,16 @@ public class BooksService {
                 })
                 .orElseThrow(() -> new BookResultsNotAvailable("Gutendex did not provide any Book results for book with id:" + bookId));
     }
-
+    public List<Book> getTopRatedBooks(int topN) {
+        return gutendexService.getGutendexBookByIds(booksRatingService.getTopRatedBooks(topN)).map(gutendexBooks -> {
+                    return gutendexBooks.stream().map(gutendexBook -> {
+                        var book = GutendexMapper.mapGutendexBookToToDto(gutendexBook);
+                        var rating = booksRatingService.getBookRating(String.valueOf(gutendexBook.getId()));
+                        book.setRating(rating.getRating());
+                        book.setReviews(rating.getReviews());
+                        return book;
+                    }).collect(Collectors.toList());
+                }
+        ).orElseThrow(() -> new BookResultsNotAvailable("Gutendex did not provide any Book based on top rated criteria"));
+    }
 }

@@ -1,0 +1,955 @@
+{
+  "count": 25,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1513,
+      "title": "Romeo and Juliet",
+      "authors": [
+        {
+          "name": "Shakespeare, William",
+          "birth_year": 1564,
+          "death_year": 1616
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Conflict of generations -- Drama",
+        "Juliet (Fictitious character) -- Drama",
+        "Romeo (Fictitious character) -- Drama",
+        "Tragedies",
+        "Vendetta -- Drama",
+        "Verona (Italy) -- Drama",
+        "Youth -- Drama"
+      ],
+      "bookshelves": [],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/1513.kf8.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/1513.epub3.images",
+        "text/html": "https://www.gutenberg.org/ebooks/1513.html.images",
+        "application/octet-stream": "https://www.gutenberg.org/files/1513/1513-0.zip",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/1513/pg1513.cover.medium.jpg",
+        "text/plain": "https://www.gutenberg.org/ebooks/1513.txt.utf-8",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/1513/1513-0.txt",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/1513.rdf"
+      },
+      "download_count": 197127
+    },
+    {
+      "id": 1112,
+      "title": "The Tragedy of Romeo and Juliet",
+      "authors": [
+        {
+          "name": "Shakespeare, William",
+          "birth_year": 1564,
+          "death_year": 1616
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Conflict of generations -- Drama",
+        "Juliet (Fictitious character) -- Drama",
+        "Romeo (Fictitious character) -- Drama",
+        "Vendetta -- Drama",
+        "Verona (Italy) -- Drama",
+        "Youth -- Drama"
+      ],
+      "bookshelves": [
+        "Italy"
+      ],
+      "languages": [
+        "en"
+      ],
+      "copyright": true,
+      "media_type": "Text",
+      "formats": {
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/1112.kf8.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/1112.epub3.images",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/1112/pg1112.cover.medium.jpg",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/1112/1112.txt",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/1112.rdf",
+        "text/html": "https://www.gutenberg.org/ebooks/1112.html.images",
+        "text/plain": "https://www.gutenberg.org/ebooks/1112.txt.utf-8"
+      },
+      "download_count": 1657
+    },
+    {
+      "id": 1777,
+      "title": "Romeo and Juliet",
+      "authors": [
+        {
+          "name": "Shakespeare, William",
+          "birth_year": 1564,
+          "death_year": 1616
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Conflict of generations -- Drama",
+        "Juliet (Fictitious character) -- Drama",
+        "Romeo (Fictitious character) -- Drama",
+        "Tragedies",
+        "Vendetta -- Drama",
+        "Verona (Italy) -- Drama",
+        "Youth -- Drama"
+      ],
+      "bookshelves": [],
+      "languages": [
+        "en"
+      ],
+      "copyright": true,
+      "media_type": "Text",
+      "formats": {
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/1777.kf8.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/1777.epub3.images",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/1777/pg1777.cover.medium.jpg",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/1777/1777.txt",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/1777.rdf",
+        "text/html": "https://www.gutenberg.org/ebooks/1777.html.images",
+        "text/plain": "https://www.gutenberg.org/ebooks/1777.txt.utf-8"
+      },
+      "download_count": 407
+    },
+    {
+      "id": 47960,
+      "title": "Shakespeare's Tragedy of Romeo and Juliet",
+      "authors": [
+        {
+          "name": "Shakespeare, William",
+          "birth_year": 1564,
+          "death_year": 1616
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Conflict of generations -- Drama",
+        "Juliet (Fictitious character) -- Drama",
+        "Romeo (Fictitious character) -- Drama",
+        "Tragedies",
+        "Vendetta -- Drama",
+        "Verona (Italy) -- Drama",
+        "Youth -- Drama"
+      ],
+      "bookshelves": [],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/47960.kf8.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/47960.epub3.images",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/47960/pg47960.cover.medium.jpg",
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/47960/47960-0.txt",
+        "text/html; charset=utf-8": "https://www.gutenberg.org/files/47960/47960-h/47960-h.htm",
+        "text/html": "https://www.gutenberg.org/ebooks/47960.html.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/47960.rdf"
+      },
+      "download_count": 370
+    },
+    {
+      "id": 18143,
+      "title": "Roméo et Juliette: Tragédie",
+      "authors": [
+        {
+          "name": "Shakespeare, William",
+          "birth_year": 1564,
+          "death_year": 1616
+        }
+      ],
+      "translators": [
+        {
+          "name": "Guizot, François",
+          "birth_year": 1787,
+          "death_year": 1874
+        }
+      ],
+      "subjects": [
+        "Conflict of generations -- Drama",
+        "Juliet (Fictitious character) -- Drama",
+        "Romeo (Fictitious character) -- Drama",
+        "Tragedies",
+        "Vendetta -- Drama",
+        "Verona (Italy) -- Drama",
+        "Youth -- Drama"
+      ],
+      "bookshelves": [
+        "FR Théâtre"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/18143.kf8.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/18143.epub3.images",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/18143/pg18143.cover.medium.jpg",
+        "text/plain; charset=iso-8859-1": "https://www.gutenberg.org/files/18143/18143-8.txt",
+        "text/html; charset=iso-8859-1": "https://www.gutenberg.org/files/18143/18143-h/18143-h.htm",
+        "text/html": "https://www.gutenberg.org/ebooks/18143.html.images",
+        "text/plain": "https://www.gutenberg.org/ebooks/18143.txt.utf-8",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/18143.rdf"
+      },
+      "download_count": 204
+    },
+    {
+      "id": 30800,
+      "title": "Nature Myths and Stories for Little Children",
+      "authors": [
+        {
+          "name": "Cooke, Flora J. (Flora Juliette)",
+          "birth_year": 1864,
+          "death_year": 1953
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Children's stories",
+        "Mythology, Classical -- Juvenile literature",
+        "Natural history -- Juvenile fiction",
+        "Nature -- Mythology -- Juvenile literature"
+      ],
+      "bookshelves": [],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/30800.kf8.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/30800.epub3.images",
+        "text/plain; charset=iso-8859-1": "https://www.gutenberg.org/files/30800/30800-8.txt",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/30800/pg30800.cover.medium.jpg",
+        "text/html; charset=iso-8859-1": "https://www.gutenberg.org/files/30800/30800-h/30800-h.htm",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/30800/30800.txt",
+        "text/html": "https://www.gutenberg.org/ebooks/30800.html.images",
+        "text/plain": "https://www.gutenberg.org/ebooks/30800.txt.utf-8",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/30800.rdf"
+      },
+      "download_count": 131
+    },
+    {
+      "id": 28983,
+      "title": "How Girls Can Help Their Country",
+      "authors": [
+        {
+          "name": "Baden-Powell of Gilwell, Robert Stephenson Smyth Baden-Powell, Baron",
+          "birth_year": 1857,
+          "death_year": 1941
+        },
+        {
+          "name": "Baden-Powell, Agnes",
+          "birth_year": 1858,
+          "death_year": 1945
+        },
+        {
+          "name": "Low, Juliette Gordon",
+          "birth_year": 1860,
+          "death_year": 1927
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Girl Scouts",
+        "Girl Scouts of the United States of America"
+      ],
+      "bookshelves": [
+        "Scouts"
+      ],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/28983.kf8.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/28983.epub3.images",
+        "text/html; charset=iso-8859-1": "https://www.gutenberg.org/files/28983/28983-h/28983-h.htm",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/28983/pg28983.cover.medium.jpg",
+        "text/plain; charset=iso-8859-1": "https://www.gutenberg.org/files/28983/28983-8.txt",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/28983/28983.txt",
+        "text/html": "https://www.gutenberg.org/ebooks/28983.html.images",
+        "text/plain": "https://www.gutenberg.org/ebooks/28983.txt.utf-8",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/28983.rdf"
+      },
+      "download_count": 101
+    },
+    {
+      "id": 44034,
+      "title": "Juliette Drouet's Love-Letters to Victor Hugo: Edited with a Biography of Juliette Drouet",
+      "authors": [
+        {
+          "name": "Guimbaud, Louis",
+          "birth_year": 1869,
+          "death_year": null
+        },
+        {
+          "name": "Drouet, Juliette",
+          "birth_year": 1806,
+          "death_year": 1883
+        }
+      ],
+      "translators": [
+        {
+          "name": "Davidson, Theodora, Lady",
+          "birth_year": null,
+          "death_year": null
+        }
+      ],
+      "subjects": [
+        "Drouet, Juliette, 1806-1883",
+        "Hugo, Victor, 1802-1885"
+      ],
+      "bookshelves": [],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/44034.kf8.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/44034.epub3.images",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/44034/pg44034.cover.medium.jpg",
+        "text/plain; charset=iso-8859-1": "https://www.gutenberg.org/files/44034/44034-8.txt",
+        "text/html": "https://www.gutenberg.org/ebooks/44034.html.images",
+        "text/html; charset=utf-8": "https://www.gutenberg.org/files/44034/44034-h/44034-h.htm",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/44034/44034.txt",
+        "text/plain": "https://www.gutenberg.org/ebooks/44034.txt.utf-8",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/44034.rdf"
+      },
+      "download_count": 72
+    },
+    {
+      "id": 2261,
+      "title": "Romeo and Juliet",
+      "authors": [
+        {
+          "name": "Shakespeare, William",
+          "birth_year": 1564,
+          "death_year": 1616
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Conflict of generations -- Drama",
+        "Juliet (Fictitious character) -- Drama",
+        "Romeo (Fictitious character) -- Drama",
+        "Tragedies",
+        "Vendetta -- Drama",
+        "Verona (Italy) -- Drama",
+        "Youth -- Drama"
+      ],
+      "bookshelves": [],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/2261.kf8.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/2261.epub3.images",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/2261/pg2261.cover.medium.jpg",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/2261/2261.txt",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/2261.rdf",
+        "text/html": "https://www.gutenberg.org/ebooks/2261.html.images",
+        "text/plain": "https://www.gutenberg.org/ebooks/2261.txt.utf-8"
+      },
+      "download_count": 52
+    },
+    {
+      "id": 46144,
+      "title": "Six Cups of Coffee: Prepared for the Public Palate by the Best Authorities on Coffee Making",
+      "authors": [
+        {
+          "name": "Harland, Marion",
+          "birth_year": 1830,
+          "death_year": 1922
+        },
+        {
+          "name": "Parloa, Maria",
+          "birth_year": 1843,
+          "death_year": 1909
+        },
+        {
+          "name": "Campbell, Helen",
+          "birth_year": 1839,
+          "death_year": 1918
+        },
+        {
+          "name": "Lincoln, Mary J. (Mary Johnson)",
+          "birth_year": 1844,
+          "death_year": 1921
+        },
+        {
+          "name": "Owen, Catherine",
+          "birth_year": null,
+          "death_year": 1889
+        },
+        {
+          "name": "Corson, Juliet",
+          "birth_year": 1842,
+          "death_year": 1897
+        },
+        {
+          "name": "Poole, Hester M. (Hester Martha)",
+          "birth_year": 1833,
+          "death_year": 1932
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Coffee"
+      ],
+      "bookshelves": [],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/46144.kf8.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/46144.epub3.images",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/46144/pg46144.cover.medium.jpg",
+        "text/html; charset=iso-8859-1": "https://www.gutenberg.org/files/46144/46144-h/46144-h.htm",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/46144/46144.txt",
+        "text/plain; charset=iso-8859-1": "https://www.gutenberg.org/files/46144/46144-8.txt",
+        "text/html": "https://www.gutenberg.org/ebooks/46144.html.images",
+        "text/plain": "https://www.gutenberg.org/ebooks/46144.txt.utf-8",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/46144.rdf"
+      },
+      "download_count": 52
+    },
+    {
+      "id": 31605,
+      "title": "The Cooking Manual of Practical Directions for Economical Every-Day Cookery",
+      "authors": [
+        {
+          "name": "Corson, Juliet",
+          "birth_year": 1842,
+          "death_year": 1897
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Cooking, American"
+      ],
+      "bookshelves": [
+        "Cookbooks and Cooking"
+      ],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/31605.kf8.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/31605.epub3.images",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/31605/pg31605.cover.medium.jpg",
+        "text/html; charset=iso-8859-1": "https://www.gutenberg.org/files/31605/31605-h/31605-h.htm",
+        "text/plain; charset=iso-8859-1": "https://www.gutenberg.org/files/31605/31605-8.txt",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/31605/31605.txt",
+        "text/html": "https://www.gutenberg.org/ebooks/31605.html.images",
+        "text/plain": "https://www.gutenberg.org/ebooks/31605.txt.utf-8",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/31605.rdf"
+      },
+      "download_count": 45
+    },
+    {
+      "id": 15418,
+      "title": "Ang Sintang Dalisay ni Julieta at Romeo",
+      "authors": [
+        {
+          "name": "Shakespeare, William",
+          "birth_year": 1564,
+          "death_year": 1616
+        },
+        {
+          "name": "Roke, G. D.",
+          "birth_year": null,
+          "death_year": null
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Shakespeare, William, 1564-1616 -- Adaptations"
+      ],
+      "bookshelves": [],
+      "languages": [
+        "tl"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/15418.kf8.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/15418.epub3.images",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/15418/pg15418.cover.medium.jpg",
+        "text/plain; charset=iso-8859-1": "https://www.gutenberg.org/files/15418/15418-8.txt",
+        "text/html; charset=iso-8859-1": "https://www.gutenberg.org/files/15418/15418-h/15418-h.htm",
+        "text/html": "https://www.gutenberg.org/ebooks/15418.html.images",
+        "text/plain": "https://www.gutenberg.org/ebooks/15418.txt.utf-8",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/15418.rdf"
+      },
+      "download_count": 43
+    },
+    {
+      "id": 58510,
+      "title": "Madame Adam (Juliette Lambert), la grande Française: from Louis Philippe until 1917",
+      "authors": [
+        {
+          "name": "Whale, Winifred Stephens",
+          "birth_year": 1870,
+          "death_year": 1944
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Adam, Juliette, 1836-1936"
+      ],
+      "bookshelves": [],
+      "languages": [
+        "fr"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/58510.kf8.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/58510.epub3.images",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/58510/pg58510.cover.medium.jpg",
+        "text/html; charset=utf-8": "https://www.gutenberg.org/files/58510/58510-h/58510-h.htm",
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/58510/58510-0.txt",
+        "text/html": "https://www.gutenberg.org/ebooks/58510.html.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/58510.rdf"
+      },
+      "download_count": 32
+    },
+    {
+      "id": 26268,
+      "title": "Romeo and Juliet",
+      "authors": [
+        {
+          "name": "Shakespeare, William",
+          "birth_year": 1564,
+          "death_year": 1616
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Conflict of generations -- Drama",
+        "Juliet (Fictitious character) -- Drama",
+        "Romeo (Fictitious character) -- Drama",
+        "Tragedies",
+        "Vendetta -- Drama",
+        "Verona (Italy) -- Drama",
+        "Youth -- Drama"
+      ],
+      "bookshelves": [],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Sound",
+      "formats": {
+        "audio/ogg": "http://www.gutenberg.org/files/26268/ogg/26268-03.ogg",
+        "audio/mp4": "http://www.gutenberg.org/files/26268/m4b/26268-02.m4b",
+        "audio/mpeg": "http://www.gutenberg.org/files/26268/mp3/26268-04.mp3",
+        "text/plain": "http://www.gutenberg.org/files/26268/26268-readme.txt",
+        "text/html": "http://www.gutenberg.org/files/26268/26268-index.html",
+        "application/rdf+xml": "http://www.gutenberg.org/ebooks/26268.rdf"
+      },
+      "download_count": 31
+    },
+    {
+      "id": 28419,
+      "title": "Twenty-Five Cent Dinners for Families of Six",
+      "authors": [
+        {
+          "name": "Corson, Juliet",
+          "birth_year": 1842,
+          "death_year": 1897
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Cooking, American"
+      ],
+      "bookshelves": [
+        "Cookbooks and Cooking"
+      ],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/28419.kf8.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/28419.epub3.images",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/28419/pg28419.cover.medium.jpg",
+        "text/plain; charset=iso-8859-1": "https://www.gutenberg.org/files/28419/28419-8.txt",
+        "text/html; charset=iso-8859-1": "https://www.gutenberg.org/files/28419/28419-h/28419-h.htm",
+        "text/html": "https://www.gutenberg.org/ebooks/28419.html.images",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/28419/28419.txt",
+        "text/plain": "https://www.gutenberg.org/ebooks/28419.txt.utf-8",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/28419.rdf"
+      },
+      "download_count": 30
+    },
+    {
+      "id": 7232,
+      "title": "Romeo und Juliette",
+      "authors": [
+        {
+          "name": "Shakespeare, William",
+          "birth_year": 1564,
+          "death_year": 1616
+        }
+      ],
+      "translators": [
+        {
+          "name": "Wieland, Christoph Martin",
+          "birth_year": 1733,
+          "death_year": 1813
+        }
+      ],
+      "subjects": [
+        "Conflict of generations -- Drama",
+        "Juliet (Fictitious character) -- Drama",
+        "Romeo (Fictitious character) -- Drama",
+        "Vendetta -- Drama",
+        "Verona (Italy) -- Drama",
+        "Youth -- Drama"
+      ],
+      "bookshelves": [
+        "DE Drama"
+      ],
+      "languages": [
+        "de"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/7232.kf8.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/7232.epub3.images",
+        "text/plain; charset=iso-8859-1": "https://www.gutenberg.org/files/7232/7232-8.txt",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/7232/pg7232.cover.medium.jpg",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/7232.rdf",
+        "text/html": "https://www.gutenberg.org/ebooks/7232.html.images",
+        "text/plain": "https://www.gutenberg.org/ebooks/7232.txt.utf-8"
+      },
+      "download_count": 26
+    },
+    {
+      "id": 51073,
+      "title": "Little Almond Blossoms: A Book of Chinese Stories for Children",
+      "authors": [
+        {
+          "name": "Knox, Jessie Juliet",
+          "birth_year": null,
+          "death_year": null
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Chinese American children",
+        "Chinese American children -- California -- San Francisco"
+      ],
+      "bookshelves": [],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/51073.kf8.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/51073.epub3.images",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/51073/pg51073.cover.medium.jpg",
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/51073/51073-0.txt",
+        "text/html; charset=utf-8": "https://www.gutenberg.org/files/51073/51073-h/51073-h.htm",
+        "text/html": "https://www.gutenberg.org/ebooks/51073.html.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/51073.rdf"
+      },
+      "download_count": 24
+    },
+    {
+      "id": 35567,
+      "title": "A Course of Lectures on the Principles of Domestic Economy and Cookery",
+      "authors": [
+        {
+          "name": "Corson, Juliet",
+          "birth_year": 1842,
+          "death_year": 1897
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Cooking"
+      ],
+      "bookshelves": [
+        "Technology"
+      ],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/35567.kf8.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/35567.epub3.images",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/35567/35567.txt",
+        "text/html; charset=utf-8": "https://www.gutenberg.org/files/35567/35567-h/35567-h.htm",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/35567/pg35567.cover.medium.jpg",
+        "text/html": "https://www.gutenberg.org/ebooks/35567.html.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/35567.rdf",
+        "text/plain": "https://www.gutenberg.org/ebooks/35567.txt.utf-8"
+      },
+      "download_count": 23
+    },
+    {
+      "id": 5620,
+      "title": "Palaces and Courts of the Exposition: A Handbook of the Architecture, Sculpture and Mural Paintings, with Special Reference to the Symbolism",
+      "authors": [
+        {
+          "name": "James, Juliet Helena Lumbard",
+          "birth_year": 1864,
+          "death_year": null
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Panama-Pacific International Exposition (1915 : San Francisco, Calif.)"
+      ],
+      "bookshelves": [
+        "Art"
+      ],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/5620.kf8.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/5620.epub3.images",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/5620/pg5620.cover.medium.jpg",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/5620/5620.txt",
+        "text/html": "https://www.gutenberg.org/ebooks/5620.html.images",
+        "text/plain": "https://www.gutenberg.org/ebooks/5620.txt.utf-8",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/5620.rdf"
+      },
+      "download_count": 18
+    },
+    {
+      "id": 16874,
+      "title": "Claude et Juliette",
+      "authors": [
+        {
+          "name": "Assollant, Alfred",
+          "birth_year": 1827,
+          "death_year": 1886
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Fiction"
+      ],
+      "bookshelves": [
+        "FR Jeunesse"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/16874.kf8.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/16874.epub3.images",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/16874/pg16874.cover.medium.jpg",
+        "text/plain; charset=iso-8859-1": "https://www.gutenberg.org/files/16874/16874-8.txt",
+        "text/html; charset=iso-8859-1": "https://www.gutenberg.org/files/16874/16874-h/16874-h.htm",
+        "text/html": "https://www.gutenberg.org/ebooks/16874.html.images",
+        "text/plain": "https://www.gutenberg.org/ebooks/16874.txt.utf-8",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/16874.rdf"
+      },
+      "download_count": 15
+    },
+    {
+      "id": 26233,
+      "title": "The Indifference of Juliet",
+      "authors": [
+        {
+          "name": "Richmond, Grace S. (Grace Smith)",
+          "birth_year": 1866,
+          "death_year": 1959
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "American fiction -- 19th century"
+      ],
+      "bookshelves": [],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/26233.kf8.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/26233.epub3.images",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/26233/pg26233.cover.medium.jpg",
+        "text/html; charset=iso-8859-1": "https://www.gutenberg.org/files/26233/26233-h/26233-h.htm",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/26233/26233.txt",
+        "text/plain; charset=iso-8859-1": "https://www.gutenberg.org/files/26233/26233-8.txt",
+        "text/html": "https://www.gutenberg.org/ebooks/26233.html.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/26233.rdf",
+        "text/plain": "https://www.gutenberg.org/ebooks/26233.txt.utf-8"
+      },
+      "download_count": 15
+    },
+    {
+      "id": 5712,
+      "title": "Sculpture of the Exposition Palaces and Courts: Descriptive Notes on the Art of the Statuary at the Panama-Pacific International Exposition, San Francisco",
+      "authors": [
+        {
+          "name": "James, Juliet Helena Lumbard",
+          "birth_year": 1864,
+          "death_year": null
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Panama-Pacific International Exposition (1915 : San Francisco, Calif.)",
+        "Sculpture"
+      ],
+      "bookshelves": [
+        "Art"
+      ],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/5712.kf8.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/5712.epub3.images",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/5712/pg5712.cover.medium.jpg",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/5712/5712.txt",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/5712.rdf",
+        "text/html": "https://www.gutenberg.org/ebooks/5712.html.images",
+        "text/plain": "https://www.gutenberg.org/ebooks/5712.txt.utf-8"
+      },
+      "download_count": 14
+    },
+    {
+      "id": 37124,
+      "title": "A Foreword to the Panama-Pacific International Exposition",
+      "authors": [
+        {
+          "name": "James, Juliet Helena Lumbard",
+          "birth_year": 1864,
+          "death_year": null
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Panama-Pacific International Exposition (1915 : San Francisco, Calif.)"
+      ],
+      "bookshelves": [],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/37124.kf8.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/37124.epub3.images",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/37124/pg37124.cover.medium.jpg",
+        "text/html; charset=iso-8859-1": "https://www.gutenberg.org/files/37124/37124-h/37124-h.htm",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/37124/37124.txt",
+        "text/html": "https://www.gutenberg.org/ebooks/37124.html.images",
+        "text/plain": "https://www.gutenberg.org/ebooks/37124.txt.utf-8",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/37124.rdf"
+      },
+      "download_count": 12
+    },
+    {
+      "id": 12344,
+      "title": "Sir Robert Hart: The Romance of a Great Career,  2nd Edition",
+      "authors": [
+        {
+          "name": "Bredon, Juliet",
+          "birth_year": null,
+          "death_year": null
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "China. Hai guan zong shui wu si shu -- History",
+        "Customs administration -- China -- Officials and employees -- Biography",
+        "Hart, Robert, Sir, 1835-1911"
+      ],
+      "bookshelves": [],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/12344.kf8.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/12344.epub3.images",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/12344/pg12344.cover.medium.jpg",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/12344/12344.txt",
+        "text/plain; charset=iso-8859-1": "https://www.gutenberg.org/files/12344/12344-8.txt",
+        "text/plain": "https://www.gutenberg.org/ebooks/12344.txt.utf-8",
+        "text/html": "https://www.gutenberg.org/ebooks/12344.html.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/12344.rdf"
+      },
+      "download_count": 8
+    },
+    {
+      "id": 17737,
+      "title": "The Schemes of the Kaiser",
+      "authors": [
+        {
+          "name": "Adam, Juliette",
+          "birth_year": 1836,
+          "death_year": 1936
+        }
+      ],
+      "translators": [
+        {
+          "name": "Bland, J. O. P. (John Otway Percy)",
+          "birth_year": 1863,
+          "death_year": 1945
+        }
+      ],
+      "subjects": [
+        "Germany -- Foreign relations -- 1871-1918",
+        "William II, German Emperor, 1859-1941"
+      ],
+      "bookshelves": [
+        "World War I"
+      ],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/17737.kf8.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/17737.epub3.images",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/17737/pg17737.cover.medium.jpg",
+        "text/plain; charset=iso-8859-1": "https://www.gutenberg.org/files/17737/17737-8.txt",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/17737/17737.txt",
+        "text/plain": "https://www.gutenberg.org/ebooks/17737.txt.utf-8",
+        "text/html": "https://www.gutenberg.org/ebooks/17737.html.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/17737.rdf"
+      },
+      "download_count": 8
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "bookId": 2,
+    "rating": 5,
+    "comment": "Test Review"
+  },
+  {
+    "bookId": 2,
+    "rating": 5,
+    "comment": "Test Review"
+  },
+  {
+    "bookId": 2,
+    "rating": 5,
+    "comment": "Test Review"
+  },
+  {
+    "bookId": 2,
+    "rating": 5,
+    "comment": "Test Review"
+  },
+  {
+    "bookId": 3,
+    "rating": 2,
+    "comment": "Test Review"
+  },
+  {
+    "bookId": 10,
+    "rating": 5,
+    "comment": "Test Review"
+  },
+  {
+    "bookId": 3,
+    "rating": 5,
+    "comment": "Test Review"
+  }
+]

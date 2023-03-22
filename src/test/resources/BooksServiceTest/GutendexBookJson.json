@@ -1,0 +1,36 @@
+{
+  "id": 2,
+  "title": "The United States Bill of Rights: The Ten Original Amendments to the Constitution of the United States",
+  "authors": [
+    {
+      "name": "United States",
+      "birth_year": null,
+      "death_year": null
+    }
+  ],
+  "translators": [],
+  "subjects": [
+    "Civil rights -- United States -- Sources",
+    "United States. Constitution. 1st-10th Amendments"
+  ],
+  "bookshelves": [
+    "American Revolutionary War",
+    "Politics",
+    "United States Law"
+  ],
+  "languages": [
+    "en"
+  ],
+  "copyright": false,
+  "media_type": "Text",
+  "formats": {
+    "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/2.kf8.images",
+    "application/epub+zip": "https://www.gutenberg.org/ebooks/2.epub3.images",
+    "text/html": "https://www.gutenberg.org/ebooks/2.html.images",
+    "image/jpeg": "https://www.gutenberg.org/cache/epub/2/pg2.cover.medium.jpg",
+    "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/2/2.txt",
+    "text/plain": "https://www.gutenberg.org/ebooks/2.txt.utf-8",
+    "application/rdf+xml": "https://www.gutenberg.org/ebooks/2.rdf"
+  },
+  "download_count": 707
+}

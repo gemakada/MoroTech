@@ -1,0 +1,71 @@
+{
+  "count": 2,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 10,
+      "title": "The King James Version of the Bible",
+      "authors": [],
+      "translators": [],
+      "subjects": [
+        "Bible"
+      ],
+      "bookshelves": [
+        "Banned Books List from the American Library Association"
+      ],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/10.kf8.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/10.epub3.images",
+        "text/html": "https://www.gutenberg.org/ebooks/10.html.images",
+        "application/octet-stream": "https://www.gutenberg.org/files/10/10-0.zip",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/10/pg10.cover.medium.jpg",
+        "text/plain": "https://www.gutenberg.org/ebooks/10.txt.utf-8",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/10/10-0.txt",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/10.rdf"
+      },
+      "download_count": 5619
+    },
+    {
+      "id": 2,
+      "title": "The United States Bill of Rights: The Ten Original Amendments to the Constitution of the United States",
+      "authors": [
+        {
+          "name": "United States",
+          "birth_year": null,
+          "death_year": null
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Civil rights -- United States -- Sources",
+        "United States. Constitution. 1st-10th Amendments"
+      ],
+      "bookshelves": [
+        "American Revolutionary War",
+        "Politics",
+        "United States Law"
+      ],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/2.kf8.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/2.epub3.images",
+        "text/html": "https://www.gutenberg.org/ebooks/2.html.images",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/2/pg2.cover.medium.jpg",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/2/2.txt",
+        "text/plain": "https://www.gutenberg.org/ebooks/2.txt.utf-8",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/2.rdf"
+      },
+      "download_count": 707
+    }
+  ]
+}

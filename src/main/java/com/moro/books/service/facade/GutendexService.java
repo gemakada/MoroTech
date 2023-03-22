@@ -15,6 +15,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.RestTemplate;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -78,6 +79,32 @@ public class GutendexService {
             log.warn("Response HTTP Get for {} -> {}", gutendexUri, ex.getStatusCode());
         }
         return Optional.ofNullable(result);
+    }
+
+    public Optional<List<GutendexBook>> getGutendexBookByIds(List<Integer> bookIds) {
+        StringBuilder gutendexUri = new StringBuilder();
+        ResponseEntity<String> response;
+        GutendexSearchResult result = null;
+        gutendexUri.append(configProperties.getGutendexUrl()).append("?ids=");
+        for( int i=0; i<bookIds.size(); i++ ) {
+            if (i< bookIds.size()-1) {
+                gutendexUri.append(bookIds.get(i)).append(",");
+            } else {
+                gutendexUri.append(bookIds.get(i));
+            }
+        }
+        try {
+            HttpEntity<String> httpHeaders = new HttpEntity<String>(createHttpHeaders());
+            response = restTemplate.exchange(gutendexUri.toString(), HttpMethod.GET, httpHeaders, String.class);
+            log.info("Response HTTP Get for {} -> {}", gutendexUri, response.getStatusCode());
+            result = objectMapper.readValue(response.getBody(), GutendexSearchResult.class);
+            log.debug("Response HTTP Get for {} -> {}", gutendexUri, new JacksonUtils().toJson(result));
+        } catch (JsonProcessingException ex) {
+            log.error("Response HTTP GET for {}, Could not be Parsed",gutendexUri);
+        }  catch (HttpClientErrorException ex) {
+            log.warn("Response HTTP Get for {} -> {}", gutendexUri, ex.getStatusCode());
+        }
+        return Optional.ofNullable(result.getResults());
     }
 
     private HttpHeaders createHttpHeaders() {

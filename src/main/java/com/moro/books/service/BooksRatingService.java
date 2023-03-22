@@ -10,8 +10,10 @@ import com.moro.books.repository.RatingRepository;
 import com.moro.books.service.facade.GutendexService;
 import com.moro.books.util.RatingsMapper;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -28,7 +30,8 @@ public class BooksRatingService {
         this.ratingRepository = ratingRepository;
     }
 
-    public Rating postBookRating(Rating rating) {
+    @CacheEvict(value = "bookWithRatingCache", key = "{#cacheKey}")
+    public Rating postBookRating(Rating rating, String cacheKey) {
         return gutendexService.getGutendexBookById(
                 String.valueOf(rating.getBookId())).map(gutendexBook -> {
                 ratingRepository.save(RatingsMapper.mapRatingsDtoToEntity(rating));
@@ -40,6 +43,16 @@ public class BooksRatingService {
     public BookRating getBookRating(String bookId) {
         return Optional.ofNullable(RatingsMapper.mapBookRatingToDto(ratingRepository.findAllByBookId(Integer.parseInt(bookId))))
                 .orElse(new BookRating());
+    }
+
+    public List<Integer> getTopRatedBooks(int topN) {
+        return Optional.ofNullable(ratingRepository.findTopRatedBooks(topN)).map(bookIds -> {
+                    if (bookIds.size() == 0) {
+                        return null;
+                    } else {
+                        return bookIds;
+                    }
+                }).orElseThrow(()-> new BookResultsNotAvailable("No ratings Available in database"));
     }
 
 }
