@@ -117,14 +117,10 @@ public class GutendexService {
         if (result.getNext()!=null) {
             result.setNext(result.getNext().replace(configProperties.getGutendexUrl(),
                     configProperties.getMoroBookServiceUrl() + "search/"));
-            result.setNext(result.getNext().replace("&search",
-                    "&author"));
         }
         if (result.getPrevious()!=null) {
             result.setPrevious(result.getPrevious().replace(configProperties.getGutendexUrl(),
                     configProperties.getMoroBookServiceUrl() + "search/"));
-            result.setNext(result.getNext().replace("&search",
-                    "&author"));
         }
     }
 
