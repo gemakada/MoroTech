@@ -3,12 +3,12 @@
  */
 package com.moro.books.service;
 
-import com.moro.books.dto.BookRating;
-import com.moro.books.dto.Rating;
+import com.moro.books.dto.BookRatingDTO;
+import com.moro.books.dto.RatingDTO;
 import com.moro.books.exception.BookResultsNotAvailable;
 import com.moro.books.repository.RatingRepository;
 import com.moro.books.service.facade.GutendexService;
-import com.moro.books.util.RatingsMapper;
+import com.moro.books.mapper.RatingsMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.stereotype.Service;
@@ -31,7 +31,7 @@ public class BooksRatingService {
     }
 
     @CacheEvict(value = "bookWithRatingCache", key = "{#cacheKey}")
-    public Rating postBookRating(Rating rating, String cacheKey) {
+    public RatingDTO postBookRating(RatingDTO rating, String cacheKey) {
         return gutendexService.getGutendexBookById(
                 String.valueOf(rating.getBookId())).map(gutendexBook -> {
                 ratingRepository.save(RatingsMapper.mapRatingsDtoToEntity(rating));
@@ -40,19 +40,20 @@ public class BooksRatingService {
         }).orElseThrow(()-> new BookResultsNotAvailable("Gutendex did not provide any Book results for book with id:" + rating.getBookId()));
     }
 
-    public BookRating getBookRating(String bookId) {
+    public BookRatingDTO getBookRating(String bookId) {
         return Optional.ofNullable(RatingsMapper.mapBookRatingToDto(ratingRepository.findAllByBookId(Integer.parseInt(bookId))))
-                .orElse(new BookRating());
+                .orElse(new BookRatingDTO());
     }
 
     public List<Integer> getTopRatedBooks(int topN) {
-        return Optional.ofNullable(ratingRepository.findTopRatedBooks(topN)).map(bookIds -> {
+        return Optional.ofNullable(ratingRepository.findTopRatedBooks(topN))
+                .map(bookIds -> {
                     if (bookIds.size() == 0) {
                         return null;
                     } else {
                         return bookIds;
                     }
-                }).orElseThrow(()-> new BookResultsNotAvailable("No ratings Available in database"));
+        }).orElseThrow(()-> new BookResultsNotAvailable("No ratings Available in database"));
     }
 
 }

@@ -3,11 +3,11 @@
  */
 package com.moro.books.service;
 
-import com.moro.books.dto.Book;
-import com.moro.books.dto.BookSearchResult;
+import com.moro.books.dto.BookDTO;
+import com.moro.books.dto.BookSearchResultDTO;
 import com.moro.books.exception.BookResultsNotAvailable;
 import com.moro.books.service.facade.GutendexService;
-import com.moro.books.util.GutendexMapper;
+import com.moro.books.mapper.GutendexMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
@@ -30,24 +30,24 @@ public class BooksService {
     }
 
     @Cacheable(value = "searchCache", key = "{#author, #page}")
-    public BookSearchResult searchForBooks(String author, String page) {
-        return gutendexService.searchGutendexBooks(author, page)
+    public BookSearchResultDTO searchForBooks(String searchString, String page) {
+        return gutendexService.searchGutendexBooks(searchString, page)
                 .map(GutendexMapper::mapGutendexSearchResultToToDto)
                 .orElseThrow(() -> new BookResultsNotAvailable("Gutendex did not provide any Book results"));
     }
 
     @Cacheable(value = "bookCache", key = "{#bookId}")
-    public Book getBookById(String bookId) {
+    public BookDTO getBookById(String bookId) {
         return gutendexService.getGutendexBookById(bookId)
-                .map(GutendexMapper::mapGutendexBookToToDto)
+                .map(GutendexMapper::mapGutendexBookToDto)
                 .orElseThrow(() -> new BookResultsNotAvailable("Gutendex did not provide any Book results for book with id:" + bookId));
     }
 
     @Cacheable(value = "bookWithRatingCache", key = "{#bookId}")
-    public Book getBookWithRatings(String bookId) {
+    public BookDTO getBookWithRatings(String bookId) {
         return gutendexService.getGutendexBookById(bookId)
                 .map(gutendexBook -> {
-                    var book = GutendexMapper.mapGutendexBookToToDto(gutendexBook);
+                    var book = GutendexMapper.mapGutendexBookToDto(gutendexBook);
                     var rating = booksRatingService.getBookRating(bookId);
                     book.setRating(rating.getRating());
                     book.setReviews(rating.getReviews());
@@ -55,10 +55,10 @@ public class BooksService {
                 })
                 .orElseThrow(() -> new BookResultsNotAvailable("Gutendex did not provide any Book results for book with id:" + bookId));
     }
-    public List<Book> getTopRatedBooks(int topN) {
+    public List<BookDTO> getTopRatedBooks(int topN) {
         return gutendexService.getGutendexBookByIds(booksRatingService.getTopRatedBooks(topN)).map(gutendexBooks -> {
                     return gutendexBooks.stream().map(gutendexBook -> {
-                        var book = GutendexMapper.mapGutendexBookToToDto(gutendexBook);
+                        var book = GutendexMapper.mapGutendexBookToDto(gutendexBook);
                         var rating = booksRatingService.getBookRating(String.valueOf(gutendexBook.getId()));
                         book.setRating(rating.getRating());
                         book.setReviews(rating.getReviews());

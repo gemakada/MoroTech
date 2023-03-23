@@ -7,8 +7,8 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.moro.books.com.test.util.TestFilesLoader;
-import com.moro.books.dto.BookRating;
-import com.moro.books.dto.Rating;
+import com.moro.books.dto.BookRatingDTO;
+import com.moro.books.dto.RatingDTO;
 import com.moro.books.entity.RatingEntity;
 import com.moro.books.exception.BookResultsNotAvailable;
 import com.moro.books.repository.RatingRepository;
@@ -52,7 +52,7 @@ public class BooksRatingServiceTest {
 
     @Test
     public void testPostBookRatingCase1() throws JsonProcessingException {
-       Rating rating = Rating.builder()
+       RatingDTO rating = RatingDTO.builder()
                .bookId(4)
                .review("Test comment")
                .rating(4)
@@ -66,7 +66,7 @@ public class BooksRatingServiceTest {
 
     @Test
     public void testPostBookRatingCase2() throws JsonProcessingException {
-        Rating rating = Rating.builder()
+        RatingDTO rating = RatingDTO.builder()
                 .bookId(4)
                 .review("Test comment")
                 .rating(4)
@@ -80,7 +80,7 @@ public class BooksRatingServiceTest {
 
     @Test
     public void testGetBookRating() {
-        BookRating bookRating = booksRatingService.getBookRating("2");
+        BookRatingDTO bookRating = booksRatingService.getBookRating("2");
         Assertions.assertEquals(bookRating.getRating(),5);
         Assertions.assertEquals(bookRating.getReviews().size(),4);
         bookRating = booksRatingService.getBookRating("20");

@@ -16,13 +16,13 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class Book {
+public class BookDTO {
 
     private Long id;
 
     private String title;
 
-    private List<Author> authors;
+    private List<AuthorDTO> authors;
 
     private double rating;
 

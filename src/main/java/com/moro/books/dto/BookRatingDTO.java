@@ -14,7 +14,7 @@ import java.util.List;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class BookRating {
+public class BookRatingDTO {
 
     private double rating;
 

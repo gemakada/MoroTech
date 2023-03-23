@@ -1,0 +1,382 @@
+{
+  "count": 25,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1513,
+      "title": "Romeo and Juliet",
+      "authors": [
+        {
+          "name": "Shakespeare, William",
+          "birthYear": 1564,
+          "deathYear": 1616
+        }
+      ],
+      "rating": 0.0,
+      "reviews": null
+    },
+    {
+      "id": 1112,
+      "title": "The Tragedy of Romeo and Juliet",
+      "authors": [
+        {
+          "name": "Shakespeare, William",
+          "birthYear": 1564,
+          "deathYear": 1616
+        }
+      ],
+      "rating": 0.0,
+      "reviews": null
+    },
+    {
+      "id": 1777,
+      "title": "Romeo and Juliet",
+      "authors": [
+        {
+          "name": "Shakespeare, William",
+          "birthYear": 1564,
+          "deathYear": 1616
+        }
+      ],
+      "rating": 0.0,
+      "reviews": null
+    },
+    {
+      "id": 47960,
+      "title": "Shakespeare's Tragedy of Romeo and Juliet",
+      "authors": [
+        {
+          "name": "Shakespeare, William",
+          "birthYear": 1564,
+          "deathYear": 1616
+        }
+      ],
+      "rating": 0.0,
+      "reviews": null
+    },
+    {
+      "id": 18143,
+      "title": "Roméo et Juliette: Tragédie",
+      "authors": [
+        {
+          "name": "Shakespeare, William",
+          "birthYear": 1564,
+          "deathYear": 1616
+        }
+      ],
+      "rating": 0.0,
+      "reviews": null
+    },
+    {
+      "id": 30800,
+      "title": "Nature Myths and Stories for Little Children",
+      "authors": [
+        {
+          "name": "Cooke, Flora J. (Flora Juliette)",
+          "birthYear": 1864,
+          "deathYear": 1953
+        }
+      ],
+      "rating": 0.0,
+      "reviews": null
+    },
+    {
+      "id": 28983,
+      "title": "How Girls Can Help Their Country",
+      "authors": [
+        {
+          "name": "Baden-Powell of Gilwell, Robert Stephenson Smyth Baden-Powell, Baron",
+          "birthYear": 1857,
+          "deathYear": 1941
+        },
+        {
+          "name": "Baden-Powell, Agnes",
+          "birthYear": 1858,
+          "deathYear": 1945
+        },
+        {
+          "name": "Low, Juliette Gordon",
+          "birthYear": 1860,
+          "deathYear": 1927
+        }
+      ],
+      "rating": 0.0,
+      "reviews": null
+    },
+    {
+      "id": 44034,
+      "title": "Juliette Drouet's Love-Letters to Victor Hugo: Edited with a Biography of Juliette Drouet",
+      "authors": [
+        {
+          "name": "Guimbaud, Louis",
+          "birthYear": 1869,
+          "deathYear": 0
+        },
+        {
+          "name": "Drouet, Juliette",
+          "birthYear": 1806,
+          "deathYear": 1883
+        }
+      ],
+      "rating": 0.0,
+      "reviews": null
+    },
+    {
+      "id": 2261,
+      "title": "Romeo and Juliet",
+      "authors": [
+        {
+          "name": "Shakespeare, William",
+          "birthYear": 1564,
+          "deathYear": 1616
+        }
+      ],
+      "rating": 0.0,
+      "reviews": null
+    },
+    {
+      "id": 46144,
+      "title": "Six Cups of Coffee: Prepared for the Public Palate by the Best Authorities on Coffee Making",
+      "authors": [
+        {
+          "name": "Harland, Marion",
+          "birthYear": 1830,
+          "deathYear": 1922
+        },
+        {
+          "name": "Parloa, Maria",
+          "birthYear": 1843,
+          "deathYear": 1909
+        },
+        {
+          "name": "Campbell, Helen",
+          "birthYear": 1839,
+          "deathYear": 1918
+        },
+        {
+          "name": "Lincoln, Mary J. (Mary Johnson)",
+          "birthYear": 1844,
+          "deathYear": 1921
+        },
+        {
+          "name": "Owen, Catherine",
+          "birthYear": 0,
+          "deathYear": 1889
+        },
+        {
+          "name": "Corson, Juliet",
+          "birthYear": 1842,
+          "deathYear": 1897
+        },
+        {
+          "name": "Poole, Hester M. (Hester Martha)",
+          "birthYear": 1833,
+          "deathYear": 1932
+        }
+      ],
+      "rating": 0.0,
+      "reviews": null
+    },
+    {
+      "id": 31605,
+      "title": "The Cooking Manual of Practical Directions for Economical Every-Day Cookery",
+      "authors": [
+        {
+          "name": "Corson, Juliet",
+          "birthYear": 1842,
+          "deathYear": 1897
+        }
+      ],
+      "rating": 0.0,
+      "reviews": null
+    },
+    {
+      "id": 15418,
+      "title": "Ang Sintang Dalisay ni Julieta at Romeo",
+      "authors": [
+        {
+          "name": "Shakespeare, William",
+          "birthYear": 1564,
+          "deathYear": 1616
+        },
+        {
+          "name": "Roke, G. D.",
+          "birthYear": 0,
+          "deathYear": 0
+        }
+      ],
+      "rating": 0.0,
+      "reviews": null
+    },
+    {
+      "id": 58510,
+      "title": "Madame Adam (Juliette Lambert), la grande Française: from Louis Philippe until 1917",
+      "authors": [
+        {
+          "name": "Whale, Winifred Stephens",
+          "birthYear": 1870,
+          "deathYear": 1944
+        }
+      ],
+      "rating": 0.0,
+      "reviews": null
+    },
+    {
+      "id": 26268,
+      "title": "Romeo and Juliet",
+      "authors": [
+        {
+          "name": "Shakespeare, William",
+          "birthYear": 1564,
+          "deathYear": 1616
+        }
+      ],
+      "rating": 0.0,
+      "reviews": null
+    },
+    {
+      "id": 28419,
+      "title": "Twenty-Five Cent Dinners for Families of Six",
+      "authors": [
+        {
+          "name": "Corson, Juliet",
+          "birthYear": 1842,
+          "deathYear": 1897
+        }
+      ],
+      "rating": 0.0,
+      "reviews": null
+    },
+    {
+      "id": 7232,
+      "title": "Romeo und Juliette",
+      "authors": [
+        {
+          "name": "Shakespeare, William",
+          "birthYear": 1564,
+          "deathYear": 1616
+        }
+      ],
+      "rating": 0.0,
+      "reviews": null
+    },
+    {
+      "id": 35567,
+      "title": "A Course of Lectures on the Principles of Domestic Economy and Cookery",
+      "authors": [
+        {
+          "name": "Corson, Juliet",
+          "birthYear": 1842,
+          "deathYear": 1897
+        }
+      ],
+      "rating": 0.0,
+      "reviews": null
+    },
+    {
+      "id": 51073,
+      "title": "Little Almond Blossoms: A Book of Chinese Stories for Children",
+      "authors": [
+        {
+          "name": "Knox, Jessie Juliet",
+          "birthYear": 0,
+          "deathYear": 0
+        }
+      ],
+      "rating": 0.0,
+      "reviews": null
+    },
+    {
+      "id": 5620,
+      "title": "Palaces and Courts of the Exposition: A Handbook of the Architecture, Sculpture and Mural Paintings, with Special Reference to the Symbolism",
+      "authors": [
+        {
+          "name": "James, Juliet Helena Lumbard",
+          "birthYear": 1864,
+          "deathYear": 0
+        }
+      ],
+      "rating": 0.0,
+      "reviews": null
+    },
+    {
+      "id": 16874,
+      "title": "Claude et Juliette",
+      "authors": [
+        {
+          "name": "Assollant, Alfred",
+          "birthYear": 1827,
+          "deathYear": 1886
+        }
+      ],
+      "rating": 0.0,
+      "reviews": null
+    },
+    {
+      "id": 26233,
+      "title": "The Indifference of Juliet",
+      "authors": [
+        {
+          "name": "Richmond, Grace S. (Grace Smith)",
+          "birthYear": 1866,
+          "deathYear": 1959
+        }
+      ],
+      "rating": 0.0,
+      "reviews": null
+    },
+    {
+      "id": 5712,
+      "title": "Sculpture of the Exposition Palaces and Courts: Descriptive Notes on the Art of the Statuary at the Panama-Pacific International Exposition, San Francisco",
+      "authors": [
+        {
+          "name": "James, Juliet Helena Lumbard",
+          "birthYear": 1864,
+          "deathYear": 0
+        }
+      ],
+      "rating": 0.0,
+      "reviews": null
+    },
+    {
+      "id": 37124,
+      "title": "A Foreword to the Panama-Pacific International Exposition",
+      "authors": [
+        {
+          "name": "James, Juliet Helena Lumbard",
+          "birthYear": 1864,
+          "deathYear": 0
+        }
+      ],
+      "rating": 0.0,
+      "reviews": null
+    },
+    {
+      "id": 12344,
+      "title": "Sir Robert Hart: The Romance of a Great Career,  2nd Edition",
+      "authors": [
+        {
+          "name": "Bredon, Juliet",
+          "birthYear": 0,
+          "deathYear": 0
+        }
+      ],
+      "rating": 0.0,
+      "reviews": null
+    },
+    {
+      "id": 17737,
+      "title": "The Schemes of the Kaiser",
+      "authors": [
+        {
+          "name": "Adam, Juliette",
+          "birthYear": 1836,
+          "deathYear": 1936
+        }
+      ],
+      "rating": 0.0,
+      "reviews": null
+    }
+  ]
+}

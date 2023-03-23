@@ -17,7 +17,7 @@ import java.util.List;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class BookSearchResult {
+public class BookSearchResultDTO {
 
     private int count;
 
@@ -25,6 +25,6 @@ public class BookSearchResult {
 
     private String previous;
 
-    private List<Book> results;
+    private List<BookDTO> results;
 
 }

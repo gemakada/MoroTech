@@ -2,11 +2,11 @@
  * @(#)GutendexMapper.java
 
  */
-package com.moro.books.util;
+package com.moro.books.mapper;
 
-import com.moro.books.dto.Author;
-import com.moro.books.dto.Book;
-import com.moro.books.dto.BookSearchResult;
+import com.moro.books.dto.AuthorDTO;
+import com.moro.books.dto.BookDTO;
+import com.moro.books.dto.BookSearchResultDTO;
 import com.moro.books.service.facade.domain.GutendexAuthor;
 import com.moro.books.service.facade.domain.GutendexBook;
 import com.moro.books.service.facade.domain.GutendexSearchResult;
@@ -16,25 +16,25 @@ import java.util.stream.Collectors;
 
 public class GutendexMapper {
 
-    public static List<Book> mapGutendexBooksToToDto(List<GutendexBook> gutendexBooks) {
+    public static List<BookDTO> mapGutendexBooksToDto(List<GutendexBook> gutendexBooks) {
         return gutendexBooks.stream().map(gutendexBook ->
-             Book.builder().title(gutendexBook.getTitle())
+             BookDTO.builder().title(gutendexBook.getTitle())
                     .id(gutendexBook.getId())
                     .authors(mapGutendexBookAuthorToDto(gutendexBook.getAuthors()))
                     .build()
         ).collect(Collectors.toList());
     }
 
-    public static Book mapGutendexBookToToDto(GutendexBook gutendexBook) {
-        return Book.builder().title(gutendexBook.getTitle())
+    public static BookDTO mapGutendexBookToDto(GutendexBook gutendexBook) {
+        return BookDTO.builder().title(gutendexBook.getTitle())
                         .id(gutendexBook.getId())
                         .authors(mapGutendexBookAuthorToDto(gutendexBook.getAuthors()))
                         .build();
     }
 
-    public static List<Author> mapGutendexBookAuthorToDto(List<GutendexAuthor> gutendexAuthors) {
+    public static List<AuthorDTO> mapGutendexBookAuthorToDto(List<GutendexAuthor> gutendexAuthors) {
         return gutendexAuthors.stream().map(gutendexAuthor ->
-                Author.builder()
+                AuthorDTO.builder()
                         .birthYear(gutendexAuthor.getBirthYear())
                         .deathYear(gutendexAuthor.getDeathYear())
                         .name(gutendexAuthor.getName())
@@ -42,9 +42,9 @@ public class GutendexMapper {
         ).collect(Collectors.toList());
     }
 
-    public static BookSearchResult mapGutendexSearchResultToToDto(GutendexSearchResult gutendexSearchResult) {
-        return BookSearchResult.builder()
-                .results(mapGutendexBooksToToDto(gutendexSearchResult.getResults()))
+    public static BookSearchResultDTO mapGutendexSearchResultToToDto(GutendexSearchResult gutendexSearchResult) {
+        return BookSearchResultDTO.builder()
+                .results(mapGutendexBooksToDto(gutendexSearchResult.getResults()))
                 .count(gutendexSearchResult.getCount())
                 .next(gutendexSearchResult.getNext())
                 .previous(gutendexSearchResult.getPrevious())

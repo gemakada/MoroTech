@@ -16,7 +16,7 @@ import javax.validation.constraints.NotEmpty;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class Rating {
+public class RatingDTO {
 
     @Min(value = 1, message = "The book id to be rated should be greater than 1")
     private int bookId;

@@ -7,7 +7,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.moro.books.com.test.util.TestFilesLoader;
-import com.moro.books.dto.Book;
+import com.moro.books.dto.BookDTO;
 import com.moro.books.entity.RatingEntity;
 import com.moro.books.exception.BookResultsNotAvailable;
 import com.moro.books.repository.RatingRepository;
@@ -71,7 +71,7 @@ public class BooksServiceTest {
         GutendexBook gutendexBook = objectMapper.readValue(gutendexBookString,GutendexBook.class);
         when(gutendexService.getGutendexBookById("2")).thenReturn(Optional.ofNullable(gutendexBook));
         when(gutendexService.getGutendexBookById("7")).thenReturn(Optional.ofNullable(null));
-        Book retrievedBook = booksService.getBookWithRatings("2");
+        BookDTO retrievedBook = booksService.getBookWithRatings("2");
         Assertions.assertEquals(retrievedBook.getTitle(),gutendexBook.getTitle());
         Assertions.assertEquals(retrievedBook.getRating(),5);
         Assertions.assertThrows(BookResultsNotAvailable.class,()->booksService.getBookWithRatings("7"));
@@ -83,7 +83,7 @@ public class BooksServiceTest {
         GutendexSearchResult gutendexBooks = objectMapper.readValue(gutendexBooksString,GutendexSearchResult.class);
         Integer ids[] = new Integer[] { 10, 2 };
         when(gutendexService.getGutendexBookByIds(Arrays.asList(ids))).thenReturn(Optional.ofNullable(gutendexBooks.getResults()));
-        List<Book> retrievedBooks = booksService.getTopRatedBooks(2);
+        List<BookDTO> retrievedBooks = booksService.getTopRatedBooks(2);
         Assertions.assertEquals(retrievedBooks.size(),2);
         Assertions.assertEquals(retrievedBooks.size(),gutendexBooks.getResults().size());
         when(gutendexService.getGutendexBookByIds(Arrays.asList(ids))).thenReturn(Optional.ofNullable(null));
