@@ -116,11 +116,11 @@ public class GutendexService {
     private void formNextPreviousPageUri(GutendexSearchResult result) {
         if (result.getNext()!=null) {
             result.setNext(result.getNext().replace(configProperties.getGutendexUrl(),
-                    configProperties.getMoroBookServiceUrl() + "search/"));
+                    configProperties.getMoroBookServiceUrl()));
         }
         if (result.getPrevious()!=null) {
             result.setPrevious(result.getPrevious().replace(configProperties.getGutendexUrl(),
-                    configProperties.getMoroBookServiceUrl() + "search/"));
+                    configProperties.getMoroBookServiceUrl()));
         }
     }
 
