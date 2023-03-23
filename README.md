@@ -77,5 +77,5 @@ The solution is deployed as Docker image in Azure VM and is accessible through p
 <b>Solution scaling</b>
 
 The solution is designed as a microservice running individually in docker container after image build.
-For proper scale out horizontally the image needs to be deployed into a container orchestrator like Kubernetes.
+For proper horizontal scale out the image needs to be deployed into a container orchestrator like Kubernetes.
 
