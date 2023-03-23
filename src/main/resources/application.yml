@@ -9,6 +9,10 @@ spring:
   datasource:
     url: jdbc:sqlite:/Users/georgemakantasis/Moro/Persistence/db/Books.db
     driver-class-name: org.sqlite.JDBC
+  sql:
+    init:
+      schema-locations: classpath:schema.sql
+      mode: always
 config:
   gutendex-url: https://gutendex.com/books/
   moro-book-service-url: http://localhost:8060/v1/books/

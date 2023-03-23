@@ -11,6 +11,8 @@ services:
       - spring.profiles.active=prod
       - spring.datasource.url=jdbc:sqlite:/home/sqlite/db/Books.db
     volumes:
-      - /Users/georgemakantasis/Moro/Persistence/db/:/home/sqlite/db
+      - /home/Moro/Persistence/db/:/home/sqlite/db
     ports:
       - 8081:8081/tcp
+
+

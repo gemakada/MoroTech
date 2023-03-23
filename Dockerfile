@@ -8,6 +8,5 @@ RUN mvn -f pom.xml clean package -Dspring.config.use-legacy-processing=true -Dsp
 
 FROM openjdk:18.0.2.1-slim
 COPY --from=build /workspace/target/*.jar app.jar
-EXPOSE 8443
 ENTRYPOINT ["java","-jar","app.jar"]
 
