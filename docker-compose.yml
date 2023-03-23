@@ -10,7 +10,7 @@ services:
       - spring.config.use-legacy-processing=true
       - spring.profiles.active=prod
       - spring.datasource.url=jdbc:sqlite:/home/sqlite/db/Books.db
-      - config.moro-book-service-url=http://51.145.91.218:8081/v1/books/
+      - config.moro-book-service-url=http://localhost:8081/v1/books/
     volumes:
       - ./project/deployements/db/:/home/sqlite/db
     ports:
