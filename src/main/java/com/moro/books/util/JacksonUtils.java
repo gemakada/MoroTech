@@ -67,21 +67,11 @@ public class JacksonUtils {
                     .addModule(new ParameterNamesModule())
                     .addModule(new Jdk8Module())
                     .addModule(new JavaTimeModule())
-                    // and possibly other configuration, modules, then:
                     .build();
-            // to enable standard indentation ("pretty-printing"):
-            // objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
-            // to allow serialization of "empty" POJOs (no properties to serialize)
-            // (without this setting, an exception is thrown in those cases)
             objectMapper.disable(SerializationFeature.FAIL_ON_EMPTY_BEANS);
-            // to write java.util.Date, Calendar as number (timestamp):
             objectMapper.disable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS);
             objectMapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
-
-            // DeserializationFeature for changing how JSON is read as POJOs:
-            // to prevent exception when encountering unknown property:
             objectMapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
-            // to allow coercion of JSON empty String ("") to null Object value:
             objectMapper.enable(DeserializationFeature.ACCEPT_EMPTY_STRING_AS_NULL_OBJECT);
             OBJECT_MAPPER_MAP.put(clazz, objectMapper);
         }

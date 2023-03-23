@@ -20,10 +20,21 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
+
+/**
+ * This class implements methods for creating customized responses in service exception cases.
+ *
+ */
 @Order(Ordered.HIGHEST_PRECEDENCE)
 @RestControllerAdvice
 public class CustomizedResponseEntityExceptionHandler {
 
+    /**
+     * Handle ConstraintViolationException Exception
+     *
+     * @param ex the Exception
+     * @return the {@link ResponseEntity<>} for BAD_REQUEST
+     */
     @ExceptionHandler(value = {ConstraintViolationException.class})
     public final ResponseEntity<Object> handleConstraintViolation(ConstraintViolationException ex) {
         ApiError apiError = ApiError.builder()
@@ -35,6 +46,12 @@ public class CustomizedResponseEntityExceptionHandler {
         return new ResponseEntity<>(apiError,HttpStatus.BAD_REQUEST);
     }
 
+    /**
+     * Handle MethodArgumentNotValidException Exception
+     *
+     * @param ex the Exception
+     * @return the {@link ResponseEntity<>} for BAD_REQUEST
+     */
     @ExceptionHandler(value = {MethodArgumentNotValidException.class})
     public final ResponseEntity<Object> handleMethodArgumentNotValid(MethodArgumentNotValidException ex) {
         ApiError apiError = ApiError.builder()
@@ -46,6 +63,12 @@ public class CustomizedResponseEntityExceptionHandler {
         return new ResponseEntity<>(apiError,HttpStatus.BAD_REQUEST);
     }
 
+    /**
+     * Handle BookResultsNotAvailable Exception
+     *
+     * @param ex the Exception
+     * @return the {@link ResponseEntity<>} for NOT_FOUND
+     */
     @ExceptionHandler(value = {BookResultsNotAvailable.class})
     public final ResponseEntity<Object> handleBookResultsNotAvailable(BookResultsNotAvailable ex) {
         ApiError apiError = ApiError.builder()
@@ -56,6 +79,13 @@ public class CustomizedResponseEntityExceptionHandler {
                 .build();
         return new ResponseEntity<>(apiError,HttpStatus.NOT_FOUND);
     }
+
+    /**
+     * Generates the custom API 400 error message details in case of constraints violations
+     *
+     * @param constraintViolations the constraints violations as {@link Set<ConstraintViolation<>}
+     * @return the error details as {@link List<String>}
+     */
     private List<String> generateDetailsInfo(Set<ConstraintViolation<?>> constraintViolations) {
         List<String> errorList = new ArrayList<>();
         errorList.addAll(constraintViolations.stream()
@@ -64,6 +94,12 @@ public class CustomizedResponseEntityExceptionHandler {
         return errorList;
     }
 
+    /**
+     * Generates the custom API 400 error message details in case of methos arguments not valid
+     *
+     * @param fieldErrors the constraints violations as {@link List<FieldError<>}
+     * @return the error details as {@link List<String>}
+     */
     private List<String> generateDetailsFromFieldErrors(List<FieldError> fieldErrors) {
         List<String> errorList = new ArrayList<>();
         errorList.addAll(fieldErrors.stream()

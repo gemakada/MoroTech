@@ -6,10 +6,19 @@ package com.moro.books.exception;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
-@ResponseStatus(HttpStatus.SERVICE_UNAVAILABLE)
+
+/**
+ * This class implements specific service exception.
+ */
+@ResponseStatus(HttpStatus.NOT_FOUND)
 public class BookResultsNotAvailable  extends RuntimeException {
 
-    public BookResultsNotAvailable(final String message){
-            super(message);
-        }
+    /**
+     * Instantiates a new NOT_FOUND error exception.
+     *
+     * @param message the message
+     */
+    public BookResultsNotAvailable(final String message) {
+        super(message);
+    }
 }

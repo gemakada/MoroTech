@@ -1,5 +1,5 @@
 server:
-  port: 8060
+  port: 8081
   shutdown: GRACEFUL
 spring:
   profiles:
@@ -15,4 +15,4 @@ spring:
       mode: always
 config:
   gutendex-url: https://gutendex.com/books/
-  moro-book-service-url: http://localhost:8060/v1/books/
+  moro-book-service-url: http://localhost:8081/v1/books/

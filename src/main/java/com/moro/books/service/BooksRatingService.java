@@ -16,20 +16,43 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * This class implements a service for
+ * performing book rating management actions
+ */
 @Service
 @Slf4j
 public class BooksRatingService {
 
+    /**
+     * The reference to the GutendexService
+     */
     private final GutendexService gutendexService;
 
+    /**
+     * The reference to the RatingRepository
+     */
     private final RatingRepository ratingRepository;
 
+    /**
+     * Constructor with parameters
+     *
+     * @param gutendexService the GutendexService
+     * @param ratingRepository the RatingRepository
+     */
     public BooksRatingService(final GutendexService gutendexService,
                               final RatingRepository ratingRepository) {
         this.gutendexService = gutendexService;
         this.ratingRepository = ratingRepository;
     }
 
+    /**
+     * Method posts a new book rating
+     *
+     * @param rating the rating as {@link RatingDTO}
+     * @param cacheKey the cache key for eviction
+     * @return The saved rating as {@link RatingDTO}
+     */
     @CacheEvict(value = "bookWithRatingCache", key = "{#cacheKey}")
     public RatingDTO postBookRating(RatingDTO rating, String cacheKey) {
         return gutendexService.getGutendexBookById(
@@ -40,11 +63,23 @@ public class BooksRatingService {
         }).orElseThrow(()-> new BookResultsNotAvailable("Gutendex did not provide any Book results for book with id:" + rating.getBookId()));
     }
 
+    /**
+     * Method gets a book rating
+     *
+     * @param bookId the book id
+     * @return The retrieved rating as {@link BookRatingDTO}
+     */
     public BookRatingDTO getBookRating(String bookId) {
         return Optional.ofNullable(RatingsMapper.mapBookRatingToDto(ratingRepository.findAllByBookId(Integer.parseInt(bookId))))
                 .orElse(new BookRatingDTO());
     }
 
+    /**
+     * Method gets top N rated book ids
+     *
+     * @param topN the N parameter
+     * @return The retrieved book ids as {@link List<Integer>}
+     */
     public List<Integer> getTopRatedBooks(int topN) {
         return Optional.ofNullable(ratingRepository.findTopRatedBooks(topN))
                 .map(bookIds -> {
