@@ -1,0 +1,14 @@
+server:
+  port: 8081
+  shutdown: GRACEFUL
+spring:
+  profiles:
+    active: prod
+  application:
+    name: edi-masterdata-retrieve-service
+  datasource:
+    url: jdbc:sqlite:/Users/georgemakantasis/Moro/Persistence/db/Books.db
+    driver-class-name: org.sqlite.JDBC
+config:
+  gutendex-url: https://gutendex.com/books/
+  moro-book-service-url: http://localhost:8081/v1/books/

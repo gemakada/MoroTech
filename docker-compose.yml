@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  MoroBooks:
+    build: .
+    image: moro-books:latest
+    restart: unless-stopped
+    container_name: moro-books-service
+    environment:
+      - spring.config.use-legacy-processing=true
+      - spring.profiles.active=prod
+      - spring.datasource.url=jdbc:sqlite:/home/sqlite/db/Books.db
+    volumes:
+      - /Users/georgemakantasis/Moro/Persistence/db/:/home/sqlite/db
+    ports:
+      - 8081:8081/tcp
