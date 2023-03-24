@@ -1,10 +1,7 @@
-package com.moro.books.repository;/*
+/*
  * @(#)RatingRepositoryTest.java
- *
- * Copyright (c) 2022 Lufthansa Cargo AG. All Rights Reserved.
- * Developed by LH Industry Solutions AS GmbH.
- *
  */
+package com.moro.books.repository;
 
 import com.moro.books.entity.RatingEntity;
 import org.junit.jupiter.api.Assertions;
